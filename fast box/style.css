@@ -1,0 +1,186 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.nav{
+    background-color: #0f0e17;
+    height: 50px;
+    width: 100%;
+    color: aliceblue;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav .list-i{
+    padding-right: 20px;
+    padding-top: 15px;
+    font-family: 'Dancing script', cursive;
+    font-size: 1.4rem;
+}
+nav img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    height:400px ;
+    width: 100%;
+    background-color: #10392844;
+    text-align: center;
+}
+.hero div img{
+    height: 80px;
+    width: 80px;
+}
+.hero div h1{
+    font-family: 'Dancing script', cursive;
+    border: 15px;
+}
+.hero div{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product-info{
+    height: 300px;
+    background-color: #0f0e17;
+    display: flex;
+    position: relative;
+    scroll-snap-align: center;
+    overflow-x: scroll;
+    color: antiquewhite;
+}
+.product-info article{
+    display: inline-block;
+    margin: 35px;
+    font-family:  'Quicksand', Courier, monospace;
+}
+.product-info article img{
+    width: 300px;
+    height: 200px;
+}
+.packs article{
+    height: 400px;
+    background-color: #2a2835;
+    display:flex;
+    padding-left: 13%;
+}
+.packs{
+    width: 100%;
+}
+.packs div{
+    background-color: #f25f4c;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+.packs div h2{
+    text-align: center;
+    font-family: 'Dancing script', Courier, monospace;
+    font-size: 1.9rem;
+}
+.packs div h3{
+    text-align: center;
+    font-family: 'Quicksand', Courier, monospace;
+    font-size: 2.9rem;
+}
+.packs div p{
+    text-align: center;
+    font-family: 'Quicksand', Courier, monospace;
+}
+.packs div button{
+    background-color: #2a2835;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-style: none;
+    margin-left: 25%;
+    transition: width 400ms;
+    color: whitesmoke;
+}
+.packs div button:hover{
+    width: 110px;
+    margin-left: 24%;
+}
+.delivery{
+    height: 400px;
+    background-color: #0f0e17;
+    
+}
+.delivery div{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-color: #c5a9a5;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.delivery div img{
+    height: 100px;
+    width: 100px;
+    transition: filter 400ms
+}
+.delivery div img:hover{
+    filter: drop-shadow(5px 5px 2px #8f8f92);
+}
+.delivery h2 {
+    font-family: 'Dancing script', Courier, monospace;
+}
+.delivery button{
+    background-color: #ff8906;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-style: none;
+    margin-left: 43.7%;
+    margin-top: 3%;
+    transition: width 400ms;
+}
+.delivery button a{
+    font-size: 1.5rem;
+    font-family: 'Dancing script', Courier, monospace;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    height: 200px;
+    text-align: center;
+    background-color: #2a2835;
+    padding: 2%;
+}
+footer h2{
+    font-size: 1.9rem;
+    font-family: 'Dancing script', Courier, monospace;
+    color: #fffffe;
+}
+footer p{
+    font-family: 'Quicksand', Courier, monospace;
+    font-size: 1.3rem;
+    color: #a7a9be;
+}
+footer button{
+    background-color: #ff8906;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-style: none;
+}
+footer button{
+    font-size: 1.5rem;
+    font-family: 'Dancing script', Courier, monospace;
+    text-decoration: none;
+    color: white;
+}
